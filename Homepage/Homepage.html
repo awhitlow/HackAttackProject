@@ -34,99 +34,258 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white w3-hide-small" style="font-size:100px">WELCOME<br>YOUR NAME</span>
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">WELCOME<br>[YOUR NAME]</span>
     <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>WELCOME<br>YOUR NAME</b></span>
     <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Mood Log</a></p>
   </div>
 </header>
 
 <!-- Dashboard Container -->
-<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
-  <div class="w3-content">
 
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">My Dashboard</h1>
-    <div class="w3-row w3-center w3-border w3-border-dark-grey">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">REFLECT</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">RELAX</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">JOURNAL</div>
-      </a>
-    </div>
+ <style>
+.button {
+  border-radius: 4px;
+  background-color: #F7D00F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
-    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+.button:hover span {
+  padding-right: 25px;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
 
-      <h1><b>info here?</b> <span class="w3-tag w3-red w3-round">info here?</span><span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+<button class="button"><span>Journal </span></button>
 
-      <h1><b>info here?</b> <span class="w3-tag w3-grey w3-round">info here?</span><span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-    </div>
+</body>
 
-    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>info here?</b> <span class="w3-tag w3-grey w3-round">info here?</span> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+<!-- Next button -->
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #F7D00F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-    </div>
+.button:hover span {
+  padding-right: 25px;
+}
 
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
 
-    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>info here?</b> <span class="w3-tag w3-grey w3-round">info here?</span><span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+<button class="button"><span>Mood Log </span></button>
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+</body>
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-      <hr>
+<!-- Next button -->
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #F7D00F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
-      <h1><b>info here?</b> <span class="w3-right w3-tag w3-dark-grey w3-round">info here?</span></h1>
-      <p class="w3-text-grey">info here?</p>
-    </div><br>
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-  </div>
-</div>
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<button class="button"><span>Calendar </span></button>
+
+</body>
+
+<!-- Next Button-->
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #F7D00F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<button class="button"><span>Forum </span></button>
+
+</body>
+
+<!--Next Button-->
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #F7DOOF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<button class="button"><span>My Profile </span></button>
+
+</body>
 <!-- About Container -->
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About Us</h1>
     <p>Release is a website dedicated to helping college students manage their moods! Feel free to LOG how you feel, CREATE journal entries, INTERACT with our suggestions, and POST to our forum.</p>
     <p><strong>The Creators?</strong> Howard Students Themselves<img src="https://www.usnews.com/dims4/USNEWS/95badee/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F82%2F7bbabaea5b47be61379d37af47e531%2FHowardUniversity-FoundersLibrary.jpg" style="width:150px" class="w3-circle w3-right" alt="howard img"></p>
-    <p>We are proud of our interiors.</p>
     <img src="https://settlements.hirschbach.com/driverpayportal/Wellness/images/WellnessMainImage.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
     <h1><b>Info here?</b></h1>
 
