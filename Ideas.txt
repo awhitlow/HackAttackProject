@@ -13,12 +13,12 @@
 
 ----Music Playlists-----
 1. Anxious
-  High:
-  Medium:
+  High: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcCnTAt8CfNe" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  Medium: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0jgyAiPl8Af" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   Low: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5Q5wA1hY6bS" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   
 2. Fatigued:
-  High: 
+  High: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdxcBWuJkbcy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   Medium: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3ohNxI5tB79" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   Low: 
   
@@ -35,7 +35,7 @@
 5. Motivated
   High:
   Medium:
-  Low:
+  Low:<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdxcBWuJkbcy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   
 6. Stressed
   High: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUvQoIOFMFUT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -43,7 +43,7 @@
   Low: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXca8AyWK6Y7g" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   
 7. Heartbroken
-  High:
+  High:<iframe src="https://open.spotify.com/embed/album/4KYDYEtOF5WIz6oH0BbiZ5" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   Medium: 
   Low: 
   
@@ -53,9 +53,9 @@
   Low: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4fpCWaHOned" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 9. Calm:
-  High:
-  Medium:
-  Low:
+  High: 
+  Medium: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9j444F9NCBa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  Low: <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXaImRpG7HXqp" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   
 10. Angry:
   High:
